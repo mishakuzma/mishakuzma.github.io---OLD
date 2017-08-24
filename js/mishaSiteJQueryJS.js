@@ -1,3 +1,3 @@
 $(document).ready(function(
-  $(.jumbotron).fadeIn(120);
+  $(.jumbotron).fadeIn("slow");
 ));
