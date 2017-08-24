@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  alert("JS file is on");
   $(".jumbotron").fadeIn("slow");
   $("#about").hover(function() {
       $(this).animate(function() {
