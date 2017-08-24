@@ -6,7 +6,9 @@ $(document).ready(function() {
     },
     "slow");
 
-  });
+  },
+  alert("Bye");
+);
 
   $("#projects").hover(function() {
 
