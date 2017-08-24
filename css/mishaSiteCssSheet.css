@@ -2,7 +2,33 @@ body
 {
   background-color: lightskyblue
 }
+
+.jumbotron
+{
+  background-image: url("http://mishakuzma.weebly.com/uploads/6/6/2/4/66248371/background-images/1834286649.jpg")
+}
+
 .navbar
 {
   background-color: CornflowerBlue
+}
+
+#about
+{
+
+}
+
+#home
+{
+
+}
+
+#mapping
+{
+
+}
+
+#contact
+{
+
 }
