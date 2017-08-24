@@ -13,7 +13,7 @@ $(document).ready(function() {
     //},
     function() {
       alert("Bye");
-  //  }
+    }
   );
 
 //  $("#projects").hover(function() {
