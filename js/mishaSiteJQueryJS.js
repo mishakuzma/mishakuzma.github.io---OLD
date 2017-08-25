@@ -17,4 +17,7 @@ $(document).ready(function() {
 //  $("#contact").hover(function() {
 
 //  });
+  $("#FinalPortfolio").click(function(){
+    
+  });
 });
