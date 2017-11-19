@@ -35,10 +35,11 @@
 <body>
 
   <!-- Jumbotron with background image -->
-<div class="jumbotron text-center">
-  <h1>Misha Kuzma</h1>
-  <h2>Geomatics Student @ UWaterloo</h2>
+<div id="startBar" class="jumbotron text-center">
+  <h1 class="startText">Misha Kuzma</h1>
+  <h2 class="startText">Geomatics Student @ UWaterloo</h2>
 </div>
+
 <div class="container-fluid">
 	<!--Navbar Def-->
 	<nav class="navbar navbar-fixed-top blue">
@@ -69,14 +70,22 @@
 	  </div>
 	</nav>
 	<!--Navbar Def End-->
+
 	<!--About Me Section-->
 	<div class="row" id="about">
-	  <div class="col-md-12">
-		<h1 class="text-center">About Me</h1>
-		  <p>
-			  Hi! I'm Mykhaylo Kuzma, but call me Misha.
-		  </p>
-	  </div>
+	    <div class="col-md-12">
+		  <h1 class="text-center">About Me</h1>
+        </div>
+        <!--Picture - Update in JS-->
+        <div class="col-md-3">
+            <img class="bioPic img-circle img-responsive" src="images/testPic.jpg" border="100      ">
+        </div>
+        <!--Biography - Probably update in JS-->
+        <div class="col-md-9">
+		    <p>
+			    Hi! I'm Mykhaylo Kuzma, but call me Misha.
+		    </p>
+	    </div>
 	</div>
 
 	<!--Qualifications Section -->

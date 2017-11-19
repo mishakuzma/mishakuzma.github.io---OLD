@@ -19,6 +19,18 @@ padding: 20px
   background-color: CornflowerBlue
 }
 
+.startText
+{
+    background-color: white;
+    font-family: "Arial Black";
+}
+
+.bioPic
+{
+    border: 3px solid, white;
+    border-radius: 500px;
+}
+
 #about
 {
   background-color: #3385ff;
