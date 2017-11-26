@@ -1,47 +1,84 @@
 body
 {
-  background-color: lightskyblue
+    background-color: lightskyblue
 }
 
 h2
 {
-padding: 20px
+    padding: 20px
 }
 
 .jumbotron
 {
-  background-image: url("http://mishakuzma.weebly.com/uploads/6/6/2/4/66248371/background-images/1834286649.jpg");
-  background-size: cover;
+    background-image: url("http://mishakuzma.weebly.com/uploads/6/6/2/4/66248371/background-images/1834286649.jpg");
+    background-size: cover;
 }
 
 .navbar
 {
-  background-color: CornflowerBlue
+    /* background-color: CornflowerBlue
+     */
+}
+
+.navbar a
+{
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover
+{
+    background-color: #000
+}
+
+.navbar-toggle
+{
+    border: 1px solid black;
+    position: relative;
+    float: right;
+    background-color: grey;
+}
+
+.startText
+{
+    background-color: white;
+    font-family: "Arial Black";
+}
+
+.bioPic
+{
+    border: 3px solid white;
+    border-radius: 500px;
 }
 
 #about
 {
-  background-color: #3385ff;
+    background-color: #3385ff;
+}
+
+#about div h1 span
+{
+    display: inline;
+    background-color: white;
 }
 
 #projects
 {
-  background-color: #39e600;
+      background-color: #39e600;
 }
 
 #mapping
 {
-  background-color: #ffa64d;
+     background-color: #ffa64d;
 
 }
 
 #contact
 {
-  background-color: #ff4d4d;
+     background-color: #ff4d4d;
 }
 
 #bgAbout
 {
-  background-image: url("http://mishakuzma.weebly.com/uploads/6/6/2/4/66248371/background-images/1834286649.jpg");
-  background-size: cover;
+     background-image: url("http://mishakuzma.weebly.com/uploads/6/6/2/4/66248371/background-images/1834286649.jpg");
+     background-size: cover;
 }
