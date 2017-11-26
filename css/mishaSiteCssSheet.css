@@ -16,7 +16,15 @@ h2
 
 .navbar
 {
-    background-color: CornflowerBlue
+    /* background-color: CornflowerBlue
+     */
+}
+
+.navbar-toggle
+{
+    position: relative;
+    float: right;
+    background-color: grey;
 }
 
 .startText
