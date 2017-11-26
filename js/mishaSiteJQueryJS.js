@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   $(".jumbotron").fadeIn("slow");
   $("#About").hover(function() {
