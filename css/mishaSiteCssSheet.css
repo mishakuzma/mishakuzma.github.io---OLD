@@ -20,8 +20,19 @@ h2
      */
 }
 
+.navbar a
+{
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover
+{
+    background-color: #000
+}
+
 .navbar-toggle
 {
+    border: 1px solid black;
     position: relative;
     float: right;
     background-color: grey;
