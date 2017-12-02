@@ -1,17 +1,30 @@
-body, h1,h2,h3,h4,h5,h6
-{
-    font-family: "Montserrat", sans-serif
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
 }
 
-.w3-row-padding img
-{
-    margin-bottom: 12px
+.w3-row-padding img {
+    margin-bottom: 12px;
 }
 
+.w3-button a {
+
+}
 .bgimg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('images/sidebarMap2.jpg');
     min-height: 100%;
+}
+
+.bgimg ul li a {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.bgimg ul li a:hover {
+    color: white;
+    background-color: black;
+    transition: background-color 2s;
+    transition-timing-function: ease;
 }
